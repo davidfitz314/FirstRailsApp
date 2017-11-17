@@ -1,0 +1,54 @@
+header {
+	background-color: blue;
+}
+
+body {
+	background-color: #F0FFFF;
+	font-size: 20px;
+	margin: auto;
+	width: 80%;
+}
+
+table, tr, td {
+	border: 1px solid black;
+}
+
+.artic {
+	border-bottom: 5px double black;
+	min-height: 175px;
+	padding-top: 20px;
+}
+
+.para {
+	padding-top: 1px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.titleP {
+	font-size: 135%;
+	font-weight: bold;
+}
+
+.comme {
+	padding-left:20px;
+	border-bottom: 1.5px solid black;
+	font-size: 95%;
+}
+
+h3, h2, strong {
+	font-style: italic;
+}
+
+.all_caps {
+	font-size: 130%;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+textarea {
+	width: 100%;
+	height: 250px;
+}

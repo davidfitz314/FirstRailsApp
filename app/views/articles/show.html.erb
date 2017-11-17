@@ -1,0 +1,25 @@
+<div class="artic">
+	<p class="titleP">
+		<!-- <strong>Title:</strong> -->
+		<div class="all_caps">
+			<%= @article.title %>
+		</div>
+	</p>
+
+	<div class="para">
+		<!-- <strong>Text:</strong> -->
+		<%= simple_format(@article.text) %>
+	</div>
+</div>
+
+<h3>Comments</h3>
+<%= render @article.comments %>
+
+<h3> Add a comment:</h3>
+<%= render 'comments/form' %>
+<hr>
+<hr>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Destroy', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', articles_path %> 
