@@ -23,3 +23,7 @@ Things you may want to cover:
 
 * ...
 # First rails app
+
+Used a tutorial to learn how to build a blog app with comments and user authentication. tutorial can be found at guides.rubyonrails.org/
+
+After the tutorial, I updated the css to make everything look better.
